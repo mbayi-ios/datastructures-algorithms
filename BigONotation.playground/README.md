@@ -17,4 +17,4 @@
 - When talking about BigO we always need to talk about the worst case performance - we just dont look at the best case how algorithm runs, we always check on the worst case and thats the bigONotation of how that algorithm works
 - We can often trade off time for space. We can improve the performance of an algorithm by taking more space eg by creating a hash map but we gain a lot interms of time by doing that
 
-NOTE: Hash Mpas/ Dictionaries are your bestfriend to improve the performance of algorithm
+NOTE: Hash Maps/ Dictionaries are your bestfriend to improve the performance of algorithm
