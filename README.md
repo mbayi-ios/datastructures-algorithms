@@ -6,3 +6,5 @@
   *It's all about dominant operations*
   - Time(How fast)
   - Space(how much memory)
+ 
+- We talk of BigO Notation interms of WorstCase Performance
