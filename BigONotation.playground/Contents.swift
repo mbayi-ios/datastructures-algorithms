@@ -73,4 +73,28 @@ func quadratic(_ n: Int) -> Int {
     return result
 }
 
-quadratic(16)
+//quadratic(16)
+
+
+/*
+ QUESTION 1:
+ Given two arrays, create a function that let's a user know where these two arrays contain any common items
+ 
+ 
+ */
+
+// Naive Brute Force
+
+func commonItemsInArray(_ A: [Int], _ B: [Int]) -> Bool {
+    for i in 0..<A.count {
+        for j in 0..<B.count {
+            if A[i] == B[j] {
+                return true
+            }
+        }
+    }
+    return false
+}
+
+commonItemsInArray([1, 2, 3], [5, 4, 6])
+commonItemsInArray([1,2,4,5], [1,3,5,6])
