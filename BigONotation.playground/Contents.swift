@@ -43,4 +43,34 @@ func linearTime(_ A: [Int]) -> Int {
 //linearTime([1, 2, 3])
 
 
-/// MARK: - 
+/// MARK: - Logarithmic Time O(log n)
+
+func logarithmicTime(_ N: Int) -> Int {
+    var n = N
+    var result = 0
+    while n > 1 {
+        n /= 2
+        
+        //print(n)
+        result += 1
+    }
+    
+    return result
+}
+
+logarithmicTime(128)
+
+/// MARK: - Quadratic time O(n^2)
+func quadratic(_ n: Int) -> Int {
+    var result = 0
+    
+    for i in 0..<n {
+        for j in i..<n {
+            result += 1
+            print("\(i) \(j)")
+        }
+    }
+    return result
+}
+
+quadratic(16)
