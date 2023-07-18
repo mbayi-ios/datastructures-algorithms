@@ -86,6 +86,8 @@ func quadratic(_ n: Int) -> Int {
 // Naive Brute Force
 
 func commonItemsInArray(_ A: [Int], _ B: [Int]) -> Bool {
+    //let before = Date()
+    
     for i in 0..<A.count {
         for j in 0..<B.count {
             if A[i] == B[j] {
@@ -94,7 +96,17 @@ func commonItemsInArray(_ A: [Int], _ B: [Int]) -> Bool {
         }
     }
     return false
+    
+//    let after = Date()
+//    let component = Calendar.current.dateComponents([.nanosecond], from: before, to: after)
+//    let milliseconds: Double = Double(component.nanosecond! / 1000000)
+//
+//    print("bruteforce takes", milliseconds)
 }
 
 commonItemsInArray([1, 2, 3], [5, 4, 6])
 commonItemsInArray([1,2,4,5], [1,3,5,6])
+
+/* notes on the above bruteforce method.
+  - It is quadratic in nature O(n^2) because we have nested loops - Quadradic are slower. We can do better
+ */
