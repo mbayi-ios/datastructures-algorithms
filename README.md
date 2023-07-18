@@ -1,2 +1,2 @@
 # datastructures-algorithms
-[a link](https://github.com/user/repo/blob/branch/other_file.md)
+[1. BigO Notation](https://github.com/mbayi-ios/datastructures-algorithms/blob/main/BigONotation.playground/Contents.swift)
