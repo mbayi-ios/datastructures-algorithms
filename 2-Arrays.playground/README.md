@@ -26,3 +26,8 @@
      set(5, "b")
      ```
      - This works with a constant time 0(1)
+
+
+## How Arrays Work
+### 1. Get/Set 
+| "a" | "b" | "c" | |
