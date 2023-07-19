@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:BigONotation.playground/2-Arrays.playground">
+   </FileRef>
+   <FileRef
       location = "group:BigONotation.playground">
    </FileRef>
 </Workspace>
