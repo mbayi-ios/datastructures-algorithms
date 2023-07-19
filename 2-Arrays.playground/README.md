@@ -31,8 +31,16 @@
 ## How Arrays Work
 ### 1. Get/Set 
 | "a" | "b" | "c" | |
-- Get element at a particular index
+- Get element at a particular index / If you know the index of the element
 - get(4)  -> data[4] -> "a"
 - set(5, "b") -> data[5] -> "b"
 
 - This takes constant time 0(1)
+
+
+### 2. Insert
+ - When inserting an element into the array we are copying, inserting and incrementing 
+ - the order of linear time O(n)
+### 3. Delete 
+
+
