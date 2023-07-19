@@ -31,8 +31,8 @@
 ## How Arrays Work
 ### 1. Get/Set 
 | "a" | "b" | "c" | |
-Get element at a particular index
-get(4)  -> data[4] -> "a"
-set(5, "b") -> data[5] -> "b"
+- Get element at a particular index
+- get(4)  -> data[4] -> "a"
+- set(5, "b") -> data[5] -> "b"
 
-This takes constant time 0(1)
+- This takes constant time 0(1)
