@@ -24,5 +24,5 @@
      ```
      get(4)
      set(5, "b")
-     
-    ```
+     ```
+     - This works with a constant time 0(1)
