@@ -39,8 +39,15 @@
 
 
 ### 2. Insert
- - When inserting an element into the array we are copying, inserting and incrementing 
- - the order of linear time O(n)
+ - When inserting an element into the array we are copying up, inserting and incrementing 
+ - the order of linear time O(n) - worst case scenario
 ### 3. Delete 
+ - When deleting, - takes linear time O(n)
+
+### 4. Growing the size of an array 
+- what happens when array is not big enough?
+- Creates the size of the array x2(double the size)
+- Copy all the exisiting elements
+- add final element
 
 
