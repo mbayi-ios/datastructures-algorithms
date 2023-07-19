@@ -144,3 +144,46 @@ commonItemsInArrayHashMap([1, 3, 4], [10, 35, 5])
   - For Hash Map we are trading off space by creating extra data structure(memory)  but we get big improvement in terms of performance.
   - Trading off Space for Time ;- important concept in interviews. MAKING Hash Table Go to
  */
+
+
+
+/*test
+ find out if two arrays have elements in common
+ 
+ A[] & B[] if there is a common element, return true else return false
+ */
+
+// using bruteforce method
+func commonElementsInArrayBruteForce(_ A:[Int], _ B: [Int]) -> Bool {
+    for i in 0..<A.count {
+        for j in 0..<B.count {
+            if A[i] == B[j] {
+                return true
+            }
+        }
+    }
+    return false
+}
+
+
+commonElementsInArrayBruteForce([1,2,4], [1,3,4])
+
+// using hashmap
+
+func commonHash(_ A: [Int], _ B: [Int]) -> Bool {
+    var hasA = [Int: Bool]()
+    
+    for i in A {
+        hasA[i] = true
+    }
+    
+    for j in B {
+        if hasA[j] == true {
+            return true
+        }
+    }
+    
+    return false
+}
+
+commonHash([1,2, 4], [3,1, 5,6])
