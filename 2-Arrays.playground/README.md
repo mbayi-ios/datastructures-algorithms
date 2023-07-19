@@ -51,3 +51,11 @@
 - add final element
 
 
+## What's Different about swift? 
+```
+var array = ["a", "b", "c"]
+array.insert("b", at:1)
+array.remove(at: 1)
+```
+ - All this heavy lifting is done for you
+
