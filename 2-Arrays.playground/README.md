@@ -18,4 +18,10 @@
     let people =[Person]()
     ```
 - Arryas are of a fixed size
+    - You dont see it in swift..
 - Arrays support random access
+   - Have abilidyt to access data
+     ```
+   get(4)
+set(5, "b")
+  ```
