@@ -12,5 +12,10 @@
 
 ### Three things about arrays 
 - Arrays can contain anything
+    ```
+    let ints = [Int]()
+    let strings = [String]()
+    let people =[Person]()
+    ```
 - Arryas are of a fixed size
 - Arrays support random access
